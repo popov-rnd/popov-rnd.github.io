@@ -1,0 +1,97 @@
+{
+  "__comment": "This config controls the main menu.",
+  "menu": [
+    {
+      "id": "home",
+      "section": "Home",
+      "display": true,
+      "drop_down": false
+    },
+    {
+      "id": "rnd",
+      "section": "R&D",
+      "display": true,
+      "drop_down": false
+    },
+    {
+      "id": "about-me",
+      "section": "About Me",
+      "display": true,
+      "drop_down": false
+    },
+    {
+      "id": "tech-stack",
+      "section": "Tech. Stack",
+      "display": true,
+      "drop_down": false
+    },
+    {
+      "id": "projects",
+      "section": "Projects",
+      "section_config": "my_projects_config.json",
+      "display": true,
+      "drop_down": false,
+      "e-Ratos": true
+    },
+    {
+      "id": "case-studies",
+      "section": "Case Studies",
+      "section_config": "my_case_studies_config.json",
+      "display": true,
+      "drop_down": true
+    },
+    {
+      "id": "system-design",
+      "section": "System Design",
+      "section_config": "my_system_design_config.json",
+      "display": true,
+      "drop_down": true
+    },
+    {
+      "id": "selected-talks",
+      "section": "Talks",
+      "section_config": "selected_talks_config.json",
+      "display": true,
+      "drop_down": true
+    },
+    {
+      "id": "selected-articles",
+      "section": "Articles",
+      "section_config": "selected_articles_config.json",
+      "display": true,
+      "drop_down": true
+    },
+    {
+      "id": "contacts",
+      "section": "Contacts",
+      "display": true,
+      "drop_down": false
+    }
+  ],
+  "theme": {
+    "default": "auto",
+    "display": true,
+    "__comment": "Default theme can be 'dark' | 'light' | 'auto'. In 'auto' mode - 'system' theme is prioritized."
+  },
+  "availability": {
+    "from": "auto",
+    "display": true,
+    "__comment": "Auto means availability is detected dynamically (based on local date time); prioritize ISO: YYYY-MM-DD."
+  },
+  "internationalization": {
+    "default_lang": "en",
+    "displayed_lang": [
+      {"code": "en", "label": "English"},
+      {"code": "de", "label": "Deutsch"},
+      {"code": "fr", "label": "Français"}
+    ],
+    "display": true,
+    "__comment": "Displayed languages are reserved for UI toggle only."
+  },
+  "contacts": {
+    "notice_bar_display": true,
+    "linkedin": "https://www.linkedin.com/in/Popov85/",
+    "email": "mailto:popov.rnd.public@gmail.com",
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSchV3lHwHdAo5Nj1ITE6RLmUfvKk9SeZcBZtehQ-X8REk5nRA/viewform"
+  }
+}
