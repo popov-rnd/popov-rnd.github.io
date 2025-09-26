@@ -1,0 +1,13 @@
+# Popov R&D — robots.txt
+User-agent: *
+# Allow critical assets
+Allow: /assets/
+Allow: /*.js$
+Allow: /*.css$
+
+# Sitemaps (one per locale or a single index)
+Sitemap: https://popov-rnd.com/sitemap.xml
+Sitemap: https://popov-rnd.com/sitemap-de.xml
+Sitemap: https://popov-rnd.com/sitemap-fr.xml
+
+# Optional: opt out of AI training crawlers (see §5)
