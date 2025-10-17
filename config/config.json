@@ -62,6 +62,12 @@
       "drop_down": true
     },
     {
+      "id": "faq",
+      "section": "FAQ",
+      "display": true,
+      "drop_down": false
+    },
+    {
       "id": "contacts",
       "section": "Contacts",
       "display": true,
