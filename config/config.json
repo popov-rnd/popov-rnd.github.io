@@ -4,72 +4,57 @@
     {
       "id": "home",
       "section": "Home",
+      "href": "#home",
       "display": true,
       "drop_down": false
     },
     {
       "id": "rnd",
       "section": "R&D",
+      "href": "#rnd",
       "display": true,
       "drop_down": false
     },
     {
       "id": "about-me",
       "section": "About Me",
+      "href": "#about-me",
       "display": true,
       "drop_down": false
     },
     {
       "id": "tech-stack",
       "section": "Tech. Stack",
-      "display": true,
+      "href": "#tech-stack",
+      "display": false,
       "drop_down": false
     },
     {
       "id": "projects",
       "section": "Projects",
-      "section_config": "my_projects_config.json",
-      "display": true,
+      "href": "#projects",
+      "display": false,
       "drop_down": false,
       "e-Ratos": true
     },
     {
-      "id": "case-studies",
-      "section": "Case Studies",
-      "section_config": "my_case_studies_config.json",
-      "display": true,
-      "drop_down": true
-    },
-    {
-      "id": "system-design",
-      "section": "System Design",
-      "section_config": "my_system_design_config.json",
-      "display": true,
-      "drop_down": true
-    },
-    {
-      "id": "selected-talks",
-      "section": "Talks",
-      "section_config": "selected_talks_config.json",
-      "display": true,
-      "drop_down": true
-    },
-    {
-      "id": "selected-articles",
-      "section": "Articles",
-      "section_config": "selected_articles_config.json",
+      "id": "blog",
+      "section": "Blog",
+      "href": "https://blog.popov-rnd.com",
       "display": true,
       "drop_down": true
     },
     {
       "id": "faq",
       "section": "FAQ",
+      "href": "#faq",
       "display": true,
       "drop_down": false
     },
     {
       "id": "contacts",
       "section": "Contacts",
+      "href": "#contacts",
       "display": true,
       "drop_down": false
     }
