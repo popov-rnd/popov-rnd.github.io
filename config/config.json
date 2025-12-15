@@ -23,19 +23,19 @@
       "drop_down": false
     },
     {
+      "id": "projects",
+      "section": "Projects",
+      "href": "#projects",
+      "display": true,
+      "drop_down": false,
+      "e-Ratos": true
+    },
+    {
       "id": "tech-stack",
       "section": "Tech. Stack",
       "href": "#tech-stack",
       "display": false,
       "drop_down": false
-    },
-    {
-      "id": "projects",
-      "section": "Projects",
-      "href": "#projects",
-      "display": false,
-      "drop_down": false,
-      "e-Ratos": true
     },
     {
       "id": "blog",
@@ -82,7 +82,7 @@
   "contacts": {
     "notice_bar_display": true,
     "linkedin": "https://www.linkedin.com/in/Popov85/",
-    "email": "mailto:popov.rnd.public@gmail.com",
+    "email": "mailto:andrii@popov-rnd.com",
     "form": "https://docs.google.com/forms/d/e/1FAIpQLSchV3lHwHdAo5Nj1ITE6RLmUfvKk9SeZcBZtehQ-X8REk5nRA/viewform"
   }
 }
