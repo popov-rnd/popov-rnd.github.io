@@ -32,9 +32,9 @@
     },
     {
       "id": "tech-stack",
-      "section": "Tech. Stack",
+      "section": "Tech stack",
       "href": "#tech-stack",
-      "display": false,
+      "display": true,
       "drop_down": false
     },
     {
